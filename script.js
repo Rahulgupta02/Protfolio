@@ -7,7 +7,7 @@ $(document).ready(function(){
             $('.navbar').removeClass("sticky");
         }
         
-        // scroll-up button show/hide script
+      // scroll-up button show/hide script
         if(this.scrollY > 500){
             $('.scroll-up-btn').addClass("show");
         }else{
@@ -36,8 +36,8 @@ $(document).ready(function(){
     // typing text animation script
     var typed = new Typed(".typing", {
         strings: ["Developer","Designer", "Freelancer"],
-        typeSpeed: 100,
-        backSpeed: 60,
+        typeSpeed: 80,
+        backSpeed: 45,
         loop: true
     });
 
