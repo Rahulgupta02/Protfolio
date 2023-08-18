@@ -269,7 +269,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide";
+    content: "what I provided and did";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -302,6 +302,15 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+.services .serv-content .card .box a{
+    color: crimson;
+    text-decoration: underline;
+}
+.services .serv-content .card:hover a{
+    color:#111;
+}
+
+
 
 /* skills section styling */
 
@@ -362,17 +371,20 @@ section .title::after{
     top: 0;
     background: crimson;
 }
+.skills-content .right .java::before{
+    width: 90%;
+}
 .skills-content .right .html::before{
     width: 90%;
 }
 .skills-content .right .css::before{
-    width: 80%;
+    width: 90%;
 }
 .skills-content .right .js::before{
-    width: 80%;
+    width: 90%;
 }
 .skills-content .right .react::before{
-    width: 50%;
+    width: 80%;
 }
 .skills-content .right .mysql::before{
     width: 80%;
